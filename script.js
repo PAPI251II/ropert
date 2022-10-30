@@ -7,7 +7,7 @@ buttonWidth;
 const maxHeight = window.innerHeight - buttonheight;
 
 window.addEventListener('DOMContentLoaded', () => {
-  const button = document.getElementById('button');
+  const button = document.getElementById('btnID');
   
   button.addEventListener('click', () => {
     button.style.left =Math.floor(Math.random() * (maxWidth + 1)) + 'px';
