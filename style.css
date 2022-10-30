@@ -3,7 +3,9 @@
   height:50px;
   color: whitesmoke;
   background-color: skyblue;
-  border-radius: 15px;
+  border-radius: 1em;
+  border-style: groove;
+  border-top-width: thick;
   
   position: absolute;
   left:180px;
@@ -15,7 +17,9 @@
   height: 50px;
   color: whitesmoke;
   background-color: skyblue;
-  border-radius: 15px;
+	border-radius: 1em;
+	border-style: groove;
+	border-top-width: thick;
   
   position: absolute;
   left:25px;
@@ -37,3 +41,4 @@
 body {
 background-color: #DBF9FC;
 }
+
